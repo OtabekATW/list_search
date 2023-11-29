@@ -10,7 +10,7 @@ def find_max_even(data):
 
     while i < len(data):
 
-        if mx_even < data[i] and data[i] % 2 == 0:
+        if data[i] % 2 == 0 and mx_even < data[i]:
             mx_even = data[i]
 
         i += 1
