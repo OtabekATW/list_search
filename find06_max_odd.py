@@ -5,4 +5,13 @@ def find_max_odd(data):
         data: list of numbers
     returns: maximum odd number in the list
     """
-    return 0
+    i = 0
+    mx_odd = data[i]
+
+    while i < len(data):
+
+        if data[i] % 2 == 1 and mx_odd < data[i]:
+            mx_odd = data[i]
+
+        i += 1
+    return mx_odd
