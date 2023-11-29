@@ -12,7 +12,7 @@ def find_max_even(data):
 
         if mx_even < data[i] and data[i] % 2 == 0:
             mx_even = data[i]
-            
+
         i += 1
 
     return mx_even
