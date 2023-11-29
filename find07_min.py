@@ -11,6 +11,5 @@ def find_min(data):
 
         if mn > data[i]:
             mn = data[i]
-
         i += 1
     return mn
