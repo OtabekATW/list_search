@@ -12,4 +12,4 @@ def find_min_count(data):
         if data[i] < mn:
             mn = data[i]
         i += 1
-    return data.index(mn)
+    return data.count(mn)
