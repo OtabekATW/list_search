@@ -21,7 +21,6 @@ def find_max_even(data):
 
         if mx_even < list1[k]:
             mx_even = list1[k]
-
         k += 1
 
     return mx_even
