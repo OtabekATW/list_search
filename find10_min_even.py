@@ -19,7 +19,6 @@ def find_min_even(data):
 
         if list1[k] < mn_even:
             mn_even = list1[k]
-        
         k += 1
 
     return mn_even
