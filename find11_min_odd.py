@@ -20,4 +20,5 @@ def find_min_odd(data):
         if list1[k] < mn_odd:
             mn_odd = list1[k]
         k += 1
+        
     return  mn_odd
